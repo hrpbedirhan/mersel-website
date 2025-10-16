@@ -1,0 +1,219 @@
+/* Genel stil */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    color: #031F3F; 
+  }
+  
+  /* Logo boyutu */
+.logo-img {
+    width: 220;
+    object-fit: contain;
+  }
+  
+  /* Navbar */
+
+  .navbar {
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Navbar link hover */
+  .nav-link {
+    color: #031F3F;
+    transition: color 0.3s, transform 0.2s;
+  }
+  
+  .nav-link:hover {
+    color: #7E8CA1 !important;
+  }
+  
+  /* Navbar marka yazısı */
+  .navbar-brand {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+  
+  /* Hero */
+  .hero {
+    background: url('https://via.placeholder.com/1600x600?text=Taze+G%C4%B1da') center/cover no-repeat;
+    color: #031F3F;
+    text-align: center;
+    padding: 120px 20px;
+    position: relative;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .hero p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+  }
+  
+  .btn-primary {
+    background: linear-gradient(90deg, #ffc107, #e6b800);
+    color: #007f3f;
+    border: none;
+    font-weight: 600;
+    transition: all 0.3s;
+  }
+  
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+  }
+  
+  /* Neden Biz */
+  .features .card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .features .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+  
+  /* İş Ortakları */
+  .partner-card {
+    background: white;
+    border: 1px solid #dcdcdc;
+    padding: 25px 35px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+  }
+  
+  .partner-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+
+  .partner-logo {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+    filter: grayscale(20%);
+  }
+  
+  
+  /* Contact */
+  .contact-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  /* footer */
+  .footer {
+    /* background: #0a1d3a; */
+    /* background: #7E8CA1; */
+    background: black;
+    color: #fff;
+    position: relative;
+  }
+  
+  .footer .scroll {
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    background: #031F3F;
+    color: #858FA2;
+    font-size: 20px;
+    padding: 14px 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .footer .scroll:hover {
+    transform: translateY(-3px);
+  }
+  
+  .footer .social .right a {
+    color: #fff;
+    font-size: 1.4rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .footer .social .right a:hover {
+    /* color: #ffc107; */
+    color: #7E8CA1;
+  }
+  
+  .footer .copy {
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+  }
+  
+  .footer .copy ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+    list-style: none;
+  }
+  
+  .footer .copy li {
+    display: inline;
+    white-space: nowrap;
+  }
+  
+  .footer .copy a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: 500;
+    transition: opacity 0.2s ease;
+  }
+  
+  .footer .copy a:hover {
+    opacity: 0.6;
+    text-decoration: none;
+  }
+  
+  
+  .footer hr {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  
+
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%; /* 16:9 oranı */
+    position: relative;
+    height: 0;
+  }
+  
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
+/* a etiketi :( */
+a {
+    color: inherit;
+    /* text-decoration: none;  */
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #ffc107;
+    text-decoration: none;
+  }
+  
